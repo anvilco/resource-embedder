@@ -16,7 +16,7 @@ This reduces the number of HTTP requests in return for inflating your HTML. It's
     npm install resource-embedder
 
 ```javascript
-var ResourceEmbedder = require('resource-embedder');
+var ResourceEmbedder = require('@anvilco/resource-embedder');
 
 var embedder = new ResourceEmbedder('./app/page.html');
 

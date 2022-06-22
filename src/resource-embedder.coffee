@@ -31,7 +31,7 @@ module.exports = class ResourceEmbedder
       htmlFile = arguments[0]
       _options = arguments[1] || {}
       _options.htmlFile = htmlFile
-    
+
     # Build options
     @options = assign {}, defaults, _options
     @options.htmlFile = path.resolve @options.htmlFile
