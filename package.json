@@ -1,16 +1,16 @@
 {
-  "name": "resource-embedder",
-  "version": "0.2.2",
+  "name": "@anvilco/resource-embedder",
+  "version": "0.0.1",
   "description": "Embeds the contents of external scripts and stylesheets into HTML.",
-  "homepage": "https://github.com/callumlocke/resource-embedder",
-  "bugs": "https://github.com/callumlocke/resource-embedder/issues",
+  "homepage": "https://github.com/anvilco/resource-embedder",
+  "bugs": "https://github.com/anvilco/resource-embedder/issues",
   "author": {
     "name": "Callum Locke",
     "url": "https://github.com/callumlocke"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/callumlocke/resource-embedder.git"
+    "url": "https://github.com/anvilco/resource-embedder.git"
   },
   "licenses": [
     {
@@ -34,6 +34,6 @@
     "htmlparser2": "~3.5.0",
     "graceful-fs": "~2.0.2",
     "lodash": "~2.4.1",
-    "reorient-css": "~0.2.1"
+    "@anvilco/reorient-css": "^0.0.1"
   }
 }
